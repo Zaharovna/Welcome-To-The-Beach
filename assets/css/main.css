@@ -1,0 +1,112 @@
+/*Reset css start*/
+/*html, body, div, span, applet, object, iframe,*/
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+/*a, abbr, acronym, address, big, cite, code,*/
+/*del, dfn, em, img, ins, kbd, q, s, samp,*/
+/*small, strike, strong, sub, sup, tt, var,*/
+/*b, u, i, center,*/
+/*dl, dt, dd, ol, ul, li,*/
+/*fieldset, form, label, legend,*/
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+/*article, aside, canvas, details, embed,*/
+/*figure, figcaption, footer, header, hgroup,*/
+/*menu, nav, output, ruby, section, summary,*/
+/*time, mark, audio, video {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0;*/
+/*    font-size: 100%;*/
+/*    font: inherit;*/
+/*    vertical-align: baseline;*/
+/*}*/
+/*!* HTML5 display-role reset for older browsers *!*/
+/*article, aside, details, figcaption, figure,*/
+/*footer, header, hgroup, menu, nav, section {*/
+/*    display: block;*/
+/*}*/
+/*body {*/
+/*    line-height: 1;*/
+/*}*/
+/*ol, ul {*/
+/*    list-style: none;*/
+/*}*/
+/*blockquote, q {*/
+/*    quotes: none;*/
+/*}*/
+/*blockquote:before, blockquote:after,*/
+/*q:before, q:after {*/
+/*    content: '';*/
+/*    content: none;*/
+/*}*/
+/*table {*/
+/*    border-collapse: collapse;*/
+/*    border-spacing: 0;*/
+/*}*/
+/*Reset css end*/
+
+body{
+    margin: 0;
+    font-size:17px;
+    line-height:1.6;
+    color: #926239;
+
+}
+
+#showcase{
+    background: url(../images/beachshowcase.jpg) no-repeat center center /cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0 20px;
+}
+
+#showcase h1{
+    font-size:50px;
+    line-height:1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#926239;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+#section-1{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+}
+  
+#section-2{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+#section-3{
+    display:flex;
+}
+  
+#section-3 div{
+    padding:20px;
+}
+
+#section-3 .box-1, #section-3 .box-3{
+    background:#926239;
+    color:#fff;
+}
+
+#section-3 .box-2{
+    background:#f9f9f9;
+}
